@@ -1,0 +1,18 @@
+[package]
+name = "pdecrypt"
+version = "0.1.0"
+edition = "2021"
+authors = ["catflyflyfly"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+chrono = "0.4"
+chronoutil = "0.2"
+clap = { version = "4.3", features = ["derive"] }
+eyre = "0.6"
+itertools = "0.10"
+qpdf = "0.1"
+serde = { version = "1.0", features = ["derive"] }
+shellexpand = "3.0"
+toml = "0.7"
